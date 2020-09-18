@@ -27,7 +27,8 @@ Kanimaji depends on
  * [svg.path](https://pypi.python.org/pypi/svg.path) Python library, for approximating path lengths.
 
 If you want to be able to generate animated GIF, you will also need:
- * [svgexport](https://github.com/shakiba/svgexport) Python library, for exporting SVG to PNG.
+ * [svgexport](https://github.com/shakiba/svgexport) Node package, for exporting SVG to PNG. 
+   * Note: Version 0.4.x and greater of svgexport does not work properly with KanjiVG, install `0.3.2` by running `npm install -g svgexport@0.3.2` and you shouldn't have any issues.
  * [ImageMagick](www.imagemagick.org)'s convert program to merge PNG's into a GIF.
  * [Gifsicle](https://www.lcdf.org/gifsicle/) to optimize GIF size.
 
